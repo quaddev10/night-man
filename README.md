@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github.com/girish-kor/midnight-coder/blob/main/assets/theme-icon.gif" alt="Theme Icon" width="250">
+  <img src="https://github.com/girish-kor/night-man/blob/main/assets/theme-icon.gif" alt="Theme Icon" width="250">
 </div>
 
 <hr style="border: 1px solid #333; margin: 30px 0">
