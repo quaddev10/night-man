@@ -1,6 +1,6 @@
 <!-- NIGHT MAN - A VS Code Theme by Girish Kor -->
 </br>
-<h1 align="center" style="margin-bottom: 3rem; font-size: 3rem;"> <span style="color:#ff5733">N</span> <span style="color:#ff8d33">I</span> <span style="color:#ffbd33">G</span> <span style="color:#dbff33">H</span> <span style="color:#75ff33">T</span> <span style="margin-right: 1rem;"></span> <span style="color:#33ff57">M</span> <span style="color:#33ffa5">A</span> <span style="color:#33fff5">N</span>
+<h1 align="center" style="margin-bottom: 3rem; font-size: 3rem;"> <span style="color:#ff5733">N</span> <span style="color:#ff8d33">I</span> <span style="color:#ffbd33">G</span> <span style="color:#dbff33">H</span> <span style="color:#75ff33">T</span> <span style="margin-right: 1rem;">-</span> <span style="color:#33ff57">M</span> <span style="color:#33ffa5">A</span> <span style="color:#33fff5">N</span>
 </br></br>
 </h1>
 
@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="https://github.com/girish-kor/night-man/blob/main/assets/theme-icon.gif" alt="Theme Icon" width="250">
+  <img src="https://github.com/girish-kor/night-man/blob/main/assets/theme-icon.gif" alt="Theme Icon" style="width: 75vw; max-width: 75%;">
 </div>
 
 <hr style="border: 1px solid #333; margin: 30px 0">
