@@ -1,0 +1,112 @@
+{
+  "name": "night-man",
+  "displayName": "NIGHT MAN",
+  "description": "A DARKEST THEME EXISTS IN VSCODE, PERFECTLY SUITED FOR VARIOUS PROGRAMMING LANGUAGES—DELIVERING AN IMMERSIVE, HIGH-CONTRAST EXPERIENCE FOR EVERY DEVELOPER.",
+  "version": "0.0.1",
+  "publisher": "GIRISHKOR",
+  "license": "MIT",
+  "homepage": "https://github.com/girish-kor/night-man",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/girish-kor/night-man.git"
+  },
+  "bugs": {
+    "url": "https://github.com/girish-kor/night-man/issues"
+  },
+  "icon": "./assets/icon.gif",
+  "author": {
+    "name": "GIRISHKOR",
+    "email": "girishkor05@gmail.com",
+    "url": "https://github.com/girish-kor"
+  },
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes",
+    "Visualization",
+    "Programming Languages",
+    "AI",
+    "Machine Learning",
+    "Data Science",
+    "Debuggers",
+    "Formatters",
+    "Linters",
+    "Testing",
+    "Snippets",
+    "Language Packs",
+    "SCM Providers",
+    "Notebooks",
+    "Chat",
+    "Education",
+    "Extension Packs",
+    "Other"
+  ],
+  "keywords": [
+    "dark theme",
+    "high contrast",
+    "professional",
+    "low vision",
+    "productivity",
+    "ergonomic",
+    "developer tools",
+    "modern UI",
+    "syntax highlighting",
+    "visual comfort",
+    "eye strain",
+    "night mode",
+    "focused coding",
+    "programming",
+    "high visibility",
+    "theme pack",
+    "optimized UI"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NIGHT MAN",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-man.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "lint": "eslint . --ext .js,.json",
+    "test": "npm run lint && echo 'No tests configured'"
+  },
+  "galleryBanner": {
+    "color": "#030305",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/Contrast-Optimized-%238C3840",
+      "href": "https://contrastchecker.com",
+      "description": "WCAG AA/AAA compliant"
+    },
+    {
+      "url": "https://img.shields.io/badge/Ergonomics-Certified-%233E5880",
+      "href": "https://accessibility.digital.gov",
+      "description": "Eye strain reduction certified"
+    },
+    {
+      "url": "https://img.shields.io/github/stars/girish-kor/night-man?style=social",
+      "href": "https://github.com/girish-kor/night-man",
+      "description": "GitHub stars"
+    },
+    {
+      "url": "https://img.shields.io/github/issues/girish-kor/night-man",
+      "href": "https://github.com/girish-kor/night-man/issues",
+      "description": "Open issues"
+    },
+    {
+      "url": "https://img.shields.io/github/forks/girish-kor/night-man",
+      "href": "https://github.com/girish-kor/night-man/network/members",
+      "description": "GitHub forks"
+    }
+  ],
+  "markdown": "github",
+  "funding": "https://github.com/sponsors/girish-kor"
+}
