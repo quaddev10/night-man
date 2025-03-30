@@ -1,7 +1,7 @@
-<!-- MIDNIGHT CODER - A VS Code Theme by Girish Kor -->
-
-<h1 align="center">
-  <span style="color:#ff5733">M</span><span style="color:#ff8d33">I</span><span style="color:#ffbd33">D</span><span style="color:#dbff33">N</span><span style="color:#75ff33">I</span><span style="color:#33ff57">G</span><span style="color:#33ffa5">H</span><span style="color:#33fff5">T</span> <span style="color:#339cff">M</span><span style="color:#5733ff">A</span><span style="color:#8d33ff">N</span>
+<!-- NIGHT MAN - A VS Code Theme by Girish Kor -->
+</br>
+<h1 align="center" style="margin-bottom: 3rem; font-size: 3rem;"> <span style="color:#ff5733">N</span> <span style="color:#ff8d33">I</span> <span style="color:#ffbd33">G</span> <span style="color:#dbff33">H</span> <span style="color:#75ff33">T</span> <span style="margin-right: 1rem;"></span> <span style="color:#33ff57">M</span> <span style="color:#33ffa5">A</span> <span style="color:#33fff5">N</span>
+</br></br>
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 <h2 align="center"> &lt; / Extension Matrix &gt; </h2>
 
 <table align="center">
-  <tr align="center" style="background-color: #1a1a1a;">
+  <tr align="center" style="background-color: #1a1a1a; color: #fff;">
     <td><b>CONTRAST RATIO</b></td>
     <td><b>ERGONOMICS</b></td>
     <td><b>COGNITIVE LOAD</b></td>
@@ -37,7 +37,7 @@
 
 ```sh
 # Launch VS Code > Extensions (Ctrl+Shift+X)
-# Search: "Midnight Coder"
+# Search: "Night Man"
 # Install > Reload IDE
 # Ctrl+K Ctrl+T > Select Theme
 ```
@@ -48,7 +48,7 @@
 
 ```json
 {
-  "workbench.colorTheme": "Midnight Coder",
+  "workbench.colorTheme": "Night Man",
   "editor.fontSize": 15,
   "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace",
   "editor.fontLigatures": true,
