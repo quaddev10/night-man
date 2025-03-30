@@ -1,45 +1,39 @@
-<h1 align="center" style="font-weight: bold; background: #000; border-radius: 1.5rem; padding: 1.5rem 0;">
-  <span style="font-weight: bold; color: #ff5733;">M</span>
-  <span style="font-weight: bold; color: #ff8d33;">I</span>
-  <span style="font-weight: bold; color: #ffbd33;">D</span>
-  <span style="font-weight: bold; color: #dbff33;">N</span>
-  <span style="font-weight: bold; color: #75ff33;">I</span>
-  <span style="font-weight: bold; color: #33ff57;">G</span>
-  <span style="font-weight: bold; color: #33ffa5;">H</span>
-  <span style="font-weight: bold; color: #33fff5;">T</span>
-  <span>&nbsp;</span>
-  <span style="font-weight: bold; color: #339cff;">M</span>
-  <span style="font-weight: bold; color: #5733ff;">A</span>
-  <span style="font-weight: bold; color: #8d33ff;">N</span>
+<!-- MIDNIGHT CODER - A VS Code Theme by Girish Kor -->
+
+<h1 align="center">
+  <span style="color:#ff5733">M</span><span style="color:#ff8d33">I</span><span style="color:#ffbd33">D</span><span style="color:#dbff33">N</span><span style="color:#75ff33">I</span><span style="color:#33ff57">G</span><span style="color:#33ffa5">H</span><span style="color:#33fff5">T</span> <span style="color:#339cff">M</span><span style="color:#5733ff">A</span><span style="color:#8d33ff">N</span>
 </h1>
 
-<br/>
-
-<p align="center" style="font-weight: bold; font-size: 1.1rem; font-style: italic; text-transform: uppercase; letter-spacing: 0.05rem; word-spacing: 0.1rem; line-height: 1.5; max-width: 800px; margin: 0 auto; padding: 0 1rem;">  
-A DARKEST THEME EXISTS IN VSCODE, PERFECTLY SUITED FOR JAVASCRIPT, TYPESCRIPT, PYTHON, JAVA, C++, C#, GO, RUST, SWIFT, KOTLIN, PHP, RUBY, PERL, SHELL, SQL, LUA, R, HASKELL, SCALA, DART, ELIXIR, OBJECTIVE-C, F#, COBOL, AND MORE—DELIVERING AN IMMERSIVE, HIGH-CONTRAST EXPERIENCE FOR EVERY DEVELOPER.  
+<p align="center">
+  <b><i>A DARKEST THEME EXISTS IN VSCODE, PERFECTLY SUITED FOR JAVASCRIPT, TYPESCRIPT, PYTHON, JAVA, C++, C#, GO, RUST, SWIFT, KOTLIN, PHP, RUBY, PERL, SHELL, SQL, LUA, R, HASKELL, SCALA, DART, ELIXIR, OBJECTIVE-C, F#, COBOL, AND MORE—DELIVERING AN IMMERSIVE, HIGH-CONTRAST EXPERIENCE FOR EVERY DEVELOPER.</i></b>
 </p>
 
 <div align="center">
-  
-  <img src="https://github.com/girish-kor/midnight-coder/blob/main/assets/theme-icon.gif" alt="Theme Icon">
-  
+  <img src="https://github.com/girish-kor/midnight-coder/blob/main/assets/theme-icon.gif" alt="Theme Icon" width="250">
 </div>
 
-<hr style="margin: 2rem 0;"/>
+<hr style="border: 1px solid #333; margin: 30px 0">
 
-<h2 align="center" style="margin-bottom: 2rem;"> &lt; / Extension Matrix &gt; </h2>
+<h2 align="center"> &lt; / Extension Matrix &gt; </h2>
 
-<div align="center">
+<table align="center">
+  <tr align="center" style="background-color: #1a1a1a;">
+    <td><b>CONTRAST RATIO</b></td>
+    <td><b>ERGONOMICS</b></td>
+    <td><b>COGNITIVE LOAD</b></td>
+    <td><b>COLOR SCIENCE</b></td>
+  </tr>
+  <tr align="center">
+    <td>WCAG AAA Certified</td>
+    <td>8+ Hour Rated</td>
+    <td>Minimal-Impact</td>
+    <td>Quantum-Calibrated</td>
+  </tr>
+</table>
 
-| CONTRAST RATIO     | ERGONOMICS    | COGNITIVE LOAD | COLOR SCIENCE      |
-| ------------------ | ------------- | -------------- | ------------------ |
-| WCAG AAA Certified | 8+ Hour Rated | Minimal-Impact | Quantum-Calibrated |
+<hr style="border: 1px solid #333; margin: 30px 0">
 
-</div>
-
-<hr style="margin: 2rem 0;"/>
-
-<h2 align="center" style="margin-bottom: 2rem;"> &lt;/Activation Protocol&gt; </h2>
+<h2 align="center"> &lt;/Activation Protocol&gt; </h2>
 
 ```sh
 # Launch VS Code > Extensions (Ctrl+Shift+X)
@@ -48,9 +42,9 @@ A DARKEST THEME EXISTS IN VSCODE, PERFECTLY SUITED FOR JAVASCRIPT, TYPESCRIPT, P
 # Ctrl+K Ctrl+T > Select Theme
 ```
 
-<hr style="margin: 2rem 0;"/>
+<hr style="border: 1px solid #333; margin: 30px 0">
 
-<h2 align="center" style="margin-bottom: 2rem;"> &lt; / Engineering Parameters &gt; </h2>
+<h2 align="center"> &lt; / Engineering Parameters &gt; </h2>
 
 ```json
 {
@@ -65,12 +59,12 @@ A DARKEST THEME EXISTS IN VSCODE, PERFECTLY SUITED FOR JAVASCRIPT, TYPESCRIPT, P
 }
 ```
 
-<hr style="margin: 2rem 0;"/>
+<hr style="border: 1px solid #333; margin: 30px 0">
 
-<h2 align="center" style="margin-bottom: 2rem;"> &lt; / Theme Showcase &gt; </h2>
+<h2 align="center"> &lt; / Theme Showcase &gt; </h2>
 
 <details>
-  <summary><strong>JavaScript</strong></summary>
+  <summary><b>JavaScript</b></summary>
 
 ```javascript
 const fetchUser = async (id) => {
@@ -86,7 +80,7 @@ const fetchUser = async (id) => {
 </details>
 
 <details>
-  <summary><strong>TypeScript</strong></summary>
+  <summary><b>TypeScript</b></summary>
 
 ```typescript
 interface User {
@@ -103,7 +97,7 @@ const getUser = async (id: number): Promise<User> => {
 </details>
 
 <details>
-  <summary><strong>Python</strong></summary>
+  <summary><b>Python</b></summary>
 
 ```python
 with open('data.txt', 'r') as file:
@@ -115,7 +109,7 @@ squares = [x**2 for x in range(10) if x % 2 == 0]
 </details>
 
 <details>
-  <summary><strong>Java</strong></summary>
+  <summary><b>Java</b></summary>
 
 ```java
 public class Main {
@@ -131,7 +125,7 @@ public class Main {
 </details>
 
 <details>
-  <summary><strong>C++</strong></summary>
+  <summary><b>C++</b></summary>
 
 ```cpp
 #include <iostream>
@@ -149,7 +143,7 @@ int main() {
 </details>
 
 <details>
-  <summary><strong>C#</strong></summary>
+  <summary><b>C#</b></summary>
 
 ```csharp
 using System;
@@ -169,7 +163,7 @@ class Program {
 </details>
 
 <details>
-  <summary><strong>Go</strong></summary>
+  <summary><b>Go</b></summary>
 
 ```go
 package main
@@ -187,7 +181,7 @@ func main() {
 </details>
 
 <details>
-  <summary><strong>Rust</strong></summary>
+  <summary><b>Rust</b></summary>
 
 ```rust
 fn main() {
@@ -200,7 +194,7 @@ fn main() {
 </details>
 
 <details>
-  <summary><strong>Swift</strong></summary>
+  <summary><b>Swift</b></summary>
 
 ```swift
 let numbers = [1, 2, 3]
@@ -211,7 +205,7 @@ print(doubled)
 </details>
 
 <details>
-  <summary><strong>Kotlin</strong></summary>
+  <summary><b>Kotlin</b></summary>
 
 ```kotlin
 fun main() {
@@ -224,7 +218,7 @@ fun main() {
 </details>
 
 <details>
-  <summary><strong>PHP</strong></summary>
+  <summary><b>PHP</b></summary>
 
 ```php
 <?php
@@ -237,7 +231,7 @@ print_r($doubled);
 </details>
 
 <details>
-  <summary><strong>Ruby</strong></summary>
+  <summary><b>Ruby</b></summary>
 
 ```ruby
 numbers = [1, 2, 3]
@@ -248,7 +242,7 @@ puts doubled
 </details>
 
 <details>
-  <summary><strong>Perl</strong></summary>
+  <summary><b>Perl</b></summary>
 
 ```perl
 my @numbers = (1, 2, 3);
@@ -259,7 +253,7 @@ print "@doubled\n";
 </details>
 
 <details>
-  <summary><strong>Shell</strong></summary>
+  <summary><b>Shell</b></summary>
 
 ```bash
 #!/bin/bash
@@ -273,7 +267,7 @@ aws ecr push quantum-service:$QUANTUM_SERVICE_VERSION
 </details>
 
 <details>
-  <summary><strong>SQL</strong></summary>
+  <summary><b>SQL</b></summary>
 
 ```sql
 SELECT id, name, age * 2 AS double_age FROM users WHERE active = 1;
@@ -282,7 +276,7 @@ SELECT id, name, age * 2 AS double_age FROM users WHERE active = 1;
 </details>
 
 <details>
-  <summary><strong>Lua</strong></summary>
+  <summary><b>Lua</b></summary>
 
 ```lua
 numbers = {1, 2, 3}
@@ -294,7 +288,7 @@ end
 </details>
 
 <details>
-  <summary><strong>R</strong></summary>
+  <summary><b>R</b></summary>
 
 ```r
 numbers <- c(1, 2, 3)
@@ -305,7 +299,7 @@ print(doubled)
 </details>
 
 <details>
-  <summary><strong>Haskell</strong></summary>
+  <summary><b>Haskell</b></summary>
 
 ```haskell
 main = print (map (*2) [1, 2, 3])
@@ -314,7 +308,7 @@ main = print (map (*2) [1, 2, 3])
 </details>
 
 <details>
-  <summary><strong>Scala</strong></summary>
+  <summary><b>Scala</b></summary>
 
 ```scala
 val numbers = List(1, 2, 3)
@@ -325,7 +319,7 @@ println(doubled)
 </details>
 
 <details>
-  <summary><strong>Dart</strong></summary>
+  <summary><b>Dart</b></summary>
 
 ```dart
 void main() {
@@ -338,7 +332,7 @@ void main() {
 </details>
 
 <details>
-  <summary><strong>Elixir</strong></summary>
+  <summary><b>Elixir</b></summary>
 
 ```elixir
 numbers = [1, 2, 3]
@@ -349,7 +343,7 @@ IO.inspect(doubled)
 </details>
 
 <details>
-  <summary><strong>Objective-C</strong></summary>
+  <summary><b>Objective-C</b></summary>
 
 ```objective-c
 NSArray *numbers = @[@1, @2, @3];
@@ -360,7 +354,7 @@ NSLog(@"%@", doubled);
 </details>
 
 <details>
-  <summary><strong>F#</strong></summary>
+  <summary><b>F#</b></summary>
 
 ```fsharp
 let numbers = [1; 2; 3]
@@ -371,7 +365,7 @@ printfn "%A" doubled
 </details>
 
 <details>
-  <summary><strong>COBOL</strong></summary>
+  <summary><b>COBOL</b></summary>
 
 ```cobol
 IDENTIFICATION DIVISION.
@@ -388,24 +382,20 @@ STOP RUN.
 
 </details>
 
-<hr style="margin: 2rem 0;"/>
+<hr style="border: 1px solid #333; margin: 30px 0">
 
-<div align="center" style="background: #000; border-radius: 1.5rem; padding: 1.5rem; margin-top: 2rem;">
-<h3 style="color: #fff; margin-bottom: 1.5rem;">&lt; / PUBLISHERS &gt;</h3>
-
-<p align="center">
-  <a href="https://github.com/girish-kor" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://img.shields.io/badge/GitHub-girish--kor-%237A06F7?style=for-the-badge&logo=github" alt="GitHub" />
+<div align="center">
+  <h3>&lt; / PUBLISHERS &gt;</h3>
+  
+  <a href="https://github.com/girish-kor">
+    <img src="https://img.shields.io/badge/GitHub-girish--kor-%237A06F7?style=for-the-badge&logo=github" alt="GitHub">
   </a>
   
-  <a href="mailto:girishkor05@gmail.com" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://img.shields.io/badge/Email-girishkor05%40gmail.com-%23C70039?style=for-the-badge&logo=gmail" alt="Email" />
+  <a href="mailto:girishkor05@gmail.com">
+    <img src="https://img.shields.io/badge/Email-girishkor05%40gmail.com-%23C70039?style=for-the-badge&logo=gmail" alt="Email">
   </a>
   
-  <a href="LICENSE" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://img.shields.io/badge/License-MIT-%2300C853?style=for-the-badge" alt="License" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-%2300C853?style=for-the-badge" alt="License">
   </a>
-</p>
 </div>
-#   n i g h t - m a n  
- 
