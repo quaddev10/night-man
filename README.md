@@ -48,7 +48,7 @@
 
 ```json
 {
-  "workbench.colorTheme": "Night Man",
+  "workbench.colorTheme": "NIGHT MAN",
   "editor.fontSize": 15,
   "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace",
   "editor.fontLigatures": true,
